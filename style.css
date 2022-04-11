@@ -6,14 +6,12 @@ body {
 #computer-choice {
     width: 500px;
     height: 300px;
-    /* background-color: cyan; */
     margin-top: 15px;
 }
 
 #player-choice {
     width: 500px;
     height: 300px;
-    /* background-color: yellow; */
     margin-top: 15px;
 }
 

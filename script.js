@@ -19,11 +19,11 @@ function selectChoice() {
     player = this.id;
     document.getElementById("player-choice").src = player + ".png";
 
-    //random for computer
+    //comp go random choice
     computer = choices[Math.floor(Math.random() * 3)];
     document.getElementById("computer-choice").src = computer + ".png";
 
-    //check for winner
+    //stuff to make winner
     if (player == computer) {
         playerScore += 1;
         computerScore += 1;
