@@ -1,9 +1,9 @@
-var player;
-var playerScore = 0;
-var computer;
-var computerScore = 0;
+let player;
+let playerScore = 0;
+let computer;
+let computerScore = 0;
 
-var choices = ["rock", "paper", "scissors"];
+let choices = ["rock", "paper", "scissors"];
 
 window.onload = function() {
     for (let i = 0; i < 3; i++) {
@@ -25,8 +25,8 @@ function selectChoice() {
 
     //stuff to make winner
     if (player == computer) {
-        playerScore += 1;
-        computerScore += 1;
+        playerScore += 0;
+        computerScore += 0;
     }
     else {
         if (player == "rock") {
